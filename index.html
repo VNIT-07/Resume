@@ -145,14 +145,13 @@
             padding: 20px;
         }
 
-        #certificateModal img {
-            max-width: 90%;
-            max-height: 70vh;
-            border-radius: 12px;
-            box-shadow: 0 0 25px rgba(102, 252, 241, 0.5);
-            animation: zoomIn 0.4s ease;
-            margin-bottom: 20px;
+        .certificate-image {
+            width: 70%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(102, 252, 241, 0.4);
         }
+
 
         #certificateModal button {
             padding: 10px 20px;
@@ -279,17 +278,17 @@
         <p><a href="https://github.com/VNIT-07" target="_blank">See more projects on GitHub →</a></p>
     </section>
 
-    
-  <section id="certificates">
-    <h2>Certificates</h2>
 
-    <div class="certificate">
-      <h3>Drone Technology Workshop (IIT Delhi)</h3>
-      <img src="IIT-Certi.png" alt="Drone Technology Workshop Certificate" class="certificate-image" />
-    </div>
+    <section id="certificates">
+        <h2>Certificates</h2>
+
+        <div class="certificate">
+            <h3>Drone Technology Workshop (IIT Delhi)</h3>
+            <img src="IIT-Certi.png" alt="Drone Technology Workshop Certificate" class="certificate-image" />
+        </div>
 
 
-  </section>
+    </section>
 
     <section id="contact">
         <h2>Contact</h2>
@@ -302,14 +301,7 @@
     </footer>
 
     <script>
-        function showCertificate(imageSrc) {
-            document.getElementById('certificateImage').src = imageSrc;
-            document.getElementById('certificateModal').style.display = 'block';
-        }
-
-        function closeCertificate() {
-            document.getElementById('certificateModal').style.display = 'none';
-        }
+       
 
         const sections = document.querySelectorAll("section");
         const observer = new IntersectionObserver(entries => {
