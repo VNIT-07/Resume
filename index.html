@@ -2,326 +2,326 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Vinit Pansuriya | Aspiring AI Engineer | Machine Learning & Data Portfolio" />
-  <meta name="keywords" content="Vinit Pansuriya, AI Engineer, Machine Learning, Data Science, Portfolio" />
-  <meta name="author" content="Vinit Pansuriya" />
-  <title>Vinit | AI Engineer Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Vinit Pansuriya | Aspiring AI Engineer | Machine Learning & Data Portfolio" />
+    <meta name="keywords" content="Vinit Pansuriya, AI Engineer, Machine Learning, Data Science, Portfolio" />
+    <meta name="author" content="Vinit Pansuriya" />
+    <title>Vinit | AI Engineer Portfolio</title>
 
-  <style>
-    html {
-      scroll-behavior: smooth;
-    }
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
 
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      margin: 0;
-      background: #0b0c10;
-      color: #e5e5e5;
-    }
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background: #0b0c10;
+            color: #e5e5e5;
+        }
 
-    header {
-      background: linear-gradient(135deg, #c3d9fa, #031633);
-      color: #fff;
-      text-align: center;
-      padding: 80px 20px;
-      animation: fadeIn 1s ease;
-    }
+        header {
+            background: linear-gradient(135deg, #c3d9fa, #031633);
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+            animation: fadeIn 1s ease;
+        }
 
-    header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 8px;
-    }
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 8px;
+        }
 
-    header p {
-      font-size: 1.2rem;
-      opacity: 0.9;
-    }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
 
-    .nav-container {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: 25px;
-    }
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 25px;
+        }
 
-    .nav-link {
-      background: #1f2833;
-      color: #ccfaf7;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 8px;
-      font-weight: 600;
-      transition: 0.3s;
-      text-decoration: none;
-    }
+        .nav-link {
+            background: #1f2833;
+            color: #ccfaf7;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: 0.3s;
+            text-decoration: none;
+        }
 
-    .nav-link:hover {
-      background: #45a29e;
-      color: #fff;
-      transform: translateY(-3px);
-    }
+        .nav-link:hover {
+            background: #45a29e;
+            color: #fff;
+            transform: translateY(-3px);
+        }
 
-    section {
-      max-width: 900px;
-      background: #1f2833;
-      margin: 40px auto;
-      padding: 40px 30px;
-      border-radius: 12px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
-      animation: slideUp 0.8s ease forwards;
-      opacity: 0;
-    }
+        section {
+            max-width: 900px;
+            background: #1f2833;
+            margin: 40px auto;
+            padding: 40px 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+            animation: slideUp 0.8s ease forwards;
+            opacity: 0;
+        }
 
-    section.visible {
-      opacity: 1;
-    }
+        section.visible {
+            opacity: 1;
+        }
 
-    h2 {
-      color: #66fcf1;
-      border-left: 4px solid #45a29e;
-      padding-left: 10px;
-      margin-bottom: 20px;
-    }
+        h2 {
+            color: #66fcf1;
+            border-left: 4px solid #45a29e;
+            padding-left: 10px;
+            margin-bottom: 20px;
+        }
 
-    ul {
-      list-style: none;
-      padding: 0;
-    }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
 
-    li {
-      background: #0b0c10;
-      margin: 8px 0;
-      padding: 12px 14px;
-      border-radius: 6px;
-      border-left: 3px solid #45a29e;
-    }
+        li {
+            background: #0b0c10;
+            margin: 8px 0;
+            padding: 12px 14px;
+            border-radius: 6px;
+            border-left: 3px solid #45a29e;
+        }
 
-    .project {
-      margin-bottom: 20px;
-    }
+        .project {
+            margin-bottom: 20px;
+        }
 
-    .project h3 {
-      margin-bottom: 6px;
-      color: #66fcf1;
-      font-size: 1.15rem;
-    }
+        .project h3 {
+            margin-bottom: 6px;
+            color: #66fcf1;
+            font-size: 1.15rem;
+        }
 
-    .project a {
-      color: #66fcf1;
-      text-decoration: none;
-    }
+        .project a {
+            color: #66fcf1;
+            text-decoration: none;
+        }
 
-    .project a:hover {
-      text-decoration: underline;
-    }
+        .project a:hover {
+            text-decoration: underline;
+        }
 
-    .certificates-list li {
-      background: #0b0c10;
-      border-left: 3px solid #45a29e;
-      padding: 12px;
-      border-radius: 6px;
-      margin-bottom: 10px;
-      transition: 0.3s;
-    }
+        .certificates-list li {
+            background: #0b0c10;
+            border-left: 3px solid #45a29e;
+            padding: 12px;
+            border-radius: 6px;
+            margin-bottom: 10px;
+            transition: 0.3s;
+        }
 
-    .certificates-list li:hover {
-      background: #16222a;
-      transform: scale(1.02);
-    }
+        .certificates-list li:hover {
+            background: #16222a;
+            transform: scale(1.02);
+        }
 
-    /* --- FIXED MODAL SECTION --- */
-    #certificateModal {
-      display: none;
-      position: fixed;
-      z-index: 9999;
-      inset: 0;
-      background: rgba(0, 0, 0, 0.95);
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      overflow-y: auto;
-      padding: 40px 20px;
-    }
+        #certificateModal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.9);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
 
-    #certificateModal img {
-      max-width: 90%;
-      max-height: 80vh;
-      border-radius: 12px;
-      box-shadow: 0 0 25px rgba(102, 252, 241, 0.5);
-      margin-bottom: 20px;
-      animation: zoomIn 0.4s ease;
-    }
+        #certificateModal img {
+            max-width: 90%;
+            max-height: 70vh;
+            border-radius: 12px;
+            box-shadow: 0 0 25px rgba(102, 252, 241, 0.5);
+            animation: zoomIn 0.4s ease;
+            margin-bottom: 20px;
+        }
 
-    #certificateModal button {
-      padding: 10px 24px;
-      background: #45a29e;
-      color: #fff;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: 600;
-      transition: 0.3s;
-      position: sticky;
-      bottom: 20px;
-    }
+        #certificateModal button {
+            padding: 10px 20px;
+            background: #45a29e;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: 0.3s;
+        }
 
-    #certificateModal button:hover {
-      background: #66fcf1;
-      color: #0b0c10;
-      transform: translateY(-2px);
-    }
+        #certificateModal button:hover {
+            background: #66fcf1;
+            color: #0b0c10;
+            transform: translateY(-2px);
+        }
 
-    footer {
-      text-align: center;
-      background: #031633;
-      color: #66fcf1;
-      padding: 20px;
-      font-size: 0.9rem;
-    }
+        footer {
+            text-align: center;
+            background: #031633;
+            color: #66fcf1;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
 
-    a {
-      color: #66fcf1;
-    }
+        a {
+            color: #66fcf1;
+        }
 
-    a:hover {
-      color: #fff;
-    }
+        a:hover {
+            color: #fff;
+        }
 
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
 
-      to {
-        opacity: 1;
-      }
-    }
+            to {
+                opacity: 1;
+            }
+        }
 
-    @keyframes slideUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
+        @keyframes slideUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
 
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-    @keyframes zoomIn {
-      from {
-        transform: scale(0.8);
-        opacity: 0;
-      }
+        @keyframes zoomIn {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
 
-      to {
-        transform: scale(1);
-        opacity: 1;
-      }
-    }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
 
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
 
-      section {
-        padding: 25px 15px;
-      }
-    }
-  </style>
+            section {
+                padding: 25px 15px;
+            }
+        }
+    </style>
 </head>
 
 <body>
-  <header>
-    <h1>Vinit Pansuriya</h1>
-    <p>Aspiring AI Engineer | ML & Data Enthusiast</p>
-    <div class="nav-container">
-      <a href="#about" class="nav-link">About</a>
-      <a href="#skills" class="nav-link">Skills</a>
-      <a href="#projects" class="nav-link">Projects</a>
-      <a href="#certificates" class="nav-link">Certificates</a>
-      <a href="#contact" class="nav-link">Contact</a>
-    </div>
-  </header>
+    <header>
+        <h1>Vinit Pansuriya</h1>
+        <p>Aspiring AI Engineer | ML & Data Enthusiast</p>
+        <div class="nav-container">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#certificates" class="nav-link">Certificates</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </header>
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I’m focused on Machine Learning and AI, building systems that learn from data and improve decision-making. I enjoy creating models that perform well in real-world conditions and aim to work on scalable AI applications that matter.</p>
-  </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I’m focused on Machine Learning and AI, building systems that learn from data and improve decision-making. I
+            enjoy creating models that perform well in real-world conditions and aim to work on scalable AI applications
+            that matter.</p>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li><strong>Programming:</strong> Python (Pandas, scikit-learn, NumPy)</li>
-      <li><strong>Machine Learning:</strong> Model Design, Training, Deployment (Streamlit)</li>
-      <li><strong>Data Analysis:</strong> Visualization (Matplotlib, Seaborn)</li>
-      <li><strong>Version Control:</strong> Git, GitHub</li>
-    </ul>
-  </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Programming:</strong> Python (Pandas, scikit-learn, NumPy)</li>
+            <li><strong>Machine Learning:</strong> Model Design, Training, Deployment (Streamlit)</li>
+            <li><strong>Data Analysis:</strong> Visualization (Matplotlib, Seaborn)</li>
+            <li><strong>Version Control:</strong> Git, GitHub</li>
+        </ul>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3><a href="https://github.com/VNIT-07/email-spam-detector" target="_blank">Email Spam Detection</a></h3>
-      <p>Built a spam classifier using DecisionTreeClassifier to identify fraudulent emails. Deployed through Streamlit for quick web testing.</p>
-    </div>
-    <div class="project">
-      <h3><a href="https://github.com/VNIT-07/heart-failure-prediction" target="_blank">Heart Failure Prediction</a></h3>
-      <p>Developed a predictive model for heart failure risk using clinical data. Focused on early detection and model interpretability.</p>
-    </div>
-    <p><a href="https://github.com/VNIT-07" target="_blank">See more projects on GitHub →</a></p>
-  </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3><a href="https://github.com/VNIT-07/email-spam-detector" target="_blank">Email Spam Detection</a></h3>
+            <p>Built a spam classifier using DecisionTreeClassifier to identify fraudulent emails. Deployed through
+                Streamlit for quick web testing.</p>
+        </div>
+        <div class="project">
+            <h3><a href="https://github.com/VNIT-07/heart-failure-prediction" target="_blank">Heart Failure
+                    Prediction</a></h3>
+            <p>Developed a predictive model for heart failure risk using clinical data. Focused on early detection and
+                model interpretability.</p>
+        </div>
+        <p><a href="https://github.com/VNIT-07" target="_blank">See more projects on GitHub →</a></p>
+    </section>
 
+    
   <section id="certificates">
     <h2>Certificates</h2>
-    <ul class="certificates-list">
-      <li><a href="javascript:void(0)" onclick="showCertificate('IIT-Certi.png')">Drone-Technology Workshop (IIT Delhi)</a></li>
-    </ul>
 
-    <div id="certificateModal">
-      <img id="certificateImage" src="" alt="Certificate" />
-      <button onclick="closeCertificate()">Close</button>
+    <div class="certificate">
+      <h3>Drone Technology Workshop (IIT Delhi)</h3>
+      <img src="IIT-Certi.png" alt="Drone Technology Workshop Certificate" class="certificate-image" />
     </div>
+
+
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p><b>Email:</b> vintipansuriya23@gmail.com</p>
-    <p><b>GitHub:</b> <a href="https://github.com/VNIT-07" target="_blank">github.com/VNIT-07</a></p>
-  </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><b>Email:</b> vintipansuriya23@gmail.com</p>
+        <p><b>GitHub:</b> <a href="https://github.com/VNIT-07" target="_blank">github.com/VNIT-07</a></p>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Vinit Pansuriya. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2025 Vinit Pansuriya. All rights reserved.</p>
+    </footer>
 
-  <script>
-    function showCertificate(imageSrc) {
-      document.getElementById('certificateImage').src = imageSrc;
-      document.getElementById('certificateModal').style.display = 'flex';
-      document.body.style.overflow = 'hidden';
-    }
-
-    function closeCertificate() {
-      document.getElementById('certificateModal').style.display = 'none';
-      document.body.style.overflow = '';
-    }
-
-    const sections = document.querySelectorAll("section");
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
+    <script>
+        function showCertificate(imageSrc) {
+            document.getElementById('certificateImage').src = imageSrc;
+            document.getElementById('certificateModal').style.display = 'block';
         }
-      });
-    }, { threshold: 0.2 });
 
-    sections.forEach(sec => observer.observe(sec));
-  </script>
+        function closeCertificate() {
+            document.getElementById('certificateModal').style.display = 'none';
+        }
+
+        const sections = document.querySelectorAll("section");
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("visible");
+                }
+            });
+        }, { threshold: 0.2 });
+
+        sections.forEach(sec => observer.observe(sec));
+    </script>
 </body>
+
 </html>
